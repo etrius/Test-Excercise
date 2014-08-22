@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Test Excercise</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom changes -->
+		<link href="css/custom.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Test Excercise</a>
+			</div>
+			<div class="collapse navbar-collapse" id="nav-collapse">
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<ul class="nav navbar-nav navbar-right linkless">
+					<li><a href="#">Welcome John <span class="glyphicon glyphicon-cog"></span></a></li>
+					<li>
+						Currency: 
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							USD <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">AUD</a></li>
+								<li><a href="#">EUR</a></li>
+								<li><a href="#">NZD</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<div class="container main" role="main">
+		<div class="row">
+			<div class="col-xs-12 col-md-2">
+				<ul class="nav nav-stacked">
+					<li><a href="#">Dashboard</a></li>
+					<li><a href="#">Account Details</a></li>
+					<li class="active"><a href="#">Domains</a></li>
+					<li><a href="#">New TLDs</a></li>
+					<li><a href="#">SSL Certificates</a></li>
+					<li><a href="#">Hosting</a></li>
+					<li><a href="#">Phone Numbers</a></li>
+					<li><a href="#">Trademark CLH</a></li>
+					<li><a href="#">Cart</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-md-10">
+				<h2>Dashboard</h2>
+				<div class="row">
+					<div class="col-xs-6 col-md-3">
+						<div class="panel panel-default">
+							<div class="panel-heading">Credit</div>
+							<div class="panel-body">
+								$5550
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<div class="panel panel-default">
+							<div class="panel-heading">Call Credit</div>
+							<div class="panel-body">
+								$5550 <button type="button" class="btn btn-sm btn-primary">Buy more</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h3>Your Domains</h3>
+				<div class="row">
+					<div class="col-xs-12 col-md-12">
+						<div class="special-panel">
+							<div class="special-panel-header">
+								<h4>Domains</h4>
+							</div>
+							<div class="special-panel-container">
+								<div class="table-responsive">
+									<table class="table">
+									<thead>
+										<tr>
+											<th><input type="checkbox"></th>
+											<th>Domain Name</th>
+											<th>Country</th>
+											<th>Status</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><input type="checkbox"></td>
+											<td>yourdomain.com</td>
+											<td>Singapore</td>
+											<td class="text-success"><i class="glyphicon glyphicon-ok-sign"></i> Available</td>
+										</tr>
+										<tr>
+											<td><input type="checkbox"></td>
+											<td>yourdomain.com</td>
+											<td>Singapore</td>
+											<td class="text-danger"><i class="glyphicon glyphicon-remove-sign"></i> Registered <button type="button" class="btn btn-xs btn-primary">Whois</button></td>
+										</tr>
+										<tr>
+											<td><input type="checkbox"></td>
+											<td>yourdomain.com</td>
+											<td>Singapore</td>
+											<td class="text-warning"><i class="glyphicon glyphicon-question-sign"></i> Possibly Available</td>
+										</tr>
+										<tr>
+											<td><input type="checkbox"></td>
+											<td>yourdomain.com</td>
+											<td>Singapore</td>
+											<td class="text-warning"><i class="glyphicon glyphicon-question-sign"></i> Possibly Available</td>
+										</tr>
+										<tr>
+											<td><input type="checkbox"></td>
+											<td>yourdomain.com</td>
+											<td>Singapore</td>
+											<td class="text-info"><i class="glyphicon glyphicon-exclamation-sign"></i> Promo</td>
+										</tr>
+									</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+	</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
